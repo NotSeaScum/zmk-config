@@ -29,10 +29,10 @@
 
         layer_1 {
             bindings = <
-&none  &kp  &kp  &kp  &kp  &kp    &kp      &kp HOME  &kp UP    &kp END    &kp PG_UP  &none
-&none  &kp  &kp  &kp  &kp  &kp    &kp      &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &none
-&none  &kp  &kp  &kp  &kp  &kp    &kp      &kp       &kp       &kp        &kp        &none
-                 &kp  &kp  &kp    &kp RET  &kp BSPC  &kp DEL
+&none  &none  &none  &none  &none  &none    &none    &kp HOME  &kp UP    &kp END    &kp PG_UP  &none
+&none  &none  &none  &none  &none  &none    &none    &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &none
+&none  &none  &none  &none  &none  &none    &none    &none     &none     &none      &none      &none
+                     &none  &none  &none    &kp RET  &kp BSPC  &kp DEL
             >;
         };
 
@@ -47,19 +47,19 @@
 
         layer_3 {
             bindings = <
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp           &kp           &kp           &kp           &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp           &kp           &kp           &kp           &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp
-               &kp  &kp  &kp    &kp  &kp           &kp
+&none  &none             &none       &none         &none         &none    &none  &none         &none         &none         &none         &none
+&none  &none             &none       &none         &none         &none    &none  &none         &none         &none         &none         &none
+&none  &kp K_PLAY_PAUSE  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none    &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none
+                                     &none         &none         &none    &none  &none         &none
             >;
         };
 
         layer_4 {
             bindings = <
-&kp  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &kp  &kp  &kp  &kp  &kp  &kp
-                      &kp     &kp     &kp                &kp  &kp  &kp
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &none  &none  &none  &none  &none  &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &none  &none  &none  &none  &none  &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &none  &none  &none  &none  &none  &none
+                        &none   &none   &none              &none  &none  &none
             >;
         };
     };
