@@ -20,28 +20,28 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp DEL    &kp Q  &kp W  &kp F    &kp P      &kp G      &kp J    &kp L     &kp U      &kp Y    &kp SQT   &kp BSPC
-&kp LCTRL  &kp A  &kp R  &kp S    &kp T      &kp D      &kp H    &kp N     &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C    &kp V      &kp B      &kp K    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp ESC  &kp SPACE  &kp TAB    &kp RET  &kp BSPC  &kp DEL
+&none  &kp Q  &kp W  &kp F    &kp P      &kp G      &kp J    &kp L     &kp U      &kp Y    &kp SQT   &none
+&none  &kp A  &kp R  &kp S    &kp T      &kp D      &kp H    &kp N     &kp E      &kp I    &kp O     &none
+&none  &kp Z  &kp X  &kp C    &kp V      &kp B      &kp K    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &none
+                     &kp ESC  &kp SPACE  &kp TAB    &kp RET  &kp BSPC  &kp DEL
             >;
         };
 
         layer_1 {
             bindings = <
-&kp  &kp  &kp  &kp  &kp  &kp    &kp      &kp HOME  &kp UP    &kp END    &kp PG_UP  &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp      &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp      &kp       &kp       &kp        &kp        &kp
-               &kp  &kp  &kp    &kp RET  &kp BSPC  &kp DEL
+&none  &kp  &kp  &kp  &kp  &kp    &kp      &kp HOME  &kp UP    &kp END    &kp PG_UP  &none
+&none  &kp  &kp  &kp  &kp  &kp    &kp      &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &none
+&none  &kp  &kp  &kp  &kp  &kp    &kp      &kp       &kp       &kp        &kp        &none
+                 &kp  &kp  &kp    &kp RET  &kp BSPC  &kp DEL
             >;
         };
 
         layer_2 {
             bindings = <
-&kp  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &kp  &kp  &kp  &kp  &kp  &kp
-                        &kp DOT  &kp N0  &kp MINUS    &kp  &kp  &kp
+&none  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &none  &none  &none  &none  &none  &none
+&none  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &none  &none  &none  &none  &none  &none
+&none  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &none  &none  &none  &none  &none  &none
+                          &kp DOT  &kp N0  &kp MINUS    &none  &none  &none
             >;
         };
 
@@ -51,6 +51,15 @@
 &kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp           &kp           &kp           &kp           &kp
 &kp  &kp  &kp  &kp  &kp  &kp    &kp  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp
                &kp  &kp  &kp    &kp  &kp           &kp
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &kp  &kp  &kp  &kp  &kp  &kp
+&kp  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &kp  &kp  &kp  &kp  &kp  &kp
+&kp  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &kp  &kp  &kp  &kp  &kp  &kp
+                      &kp     &kp     &kp                &kp  &kp  &kp
             >;
         };
     };
