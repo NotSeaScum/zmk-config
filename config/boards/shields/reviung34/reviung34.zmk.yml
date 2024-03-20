@@ -1,13 +1,9 @@
 file_format: "1"
-id: sweeple
-name: Sweeple
+id: reviung34
+name: REVIUNG34
 type: shield
-url: https://github.com/davidphilipbarr/Sweep
+url: https://github.com/gtips/reviung/tree/master/reviung34
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
-siblings:
-  - cradio_left
-  - cradio_right
-  - cradio_dongle
+  - underglow
