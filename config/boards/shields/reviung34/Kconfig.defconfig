@@ -1,4 +1,4 @@
-if SHIELD_reviung34_DONGLE
+if SHIELD_REVIUNG34_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "reviung34"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_reviung34_main || SHIELD_reviung34_DONGLE
+if SHIELD_REVIUNG34_MAIN || SHIELD_REVIUNG34_DONGLE
 
 config ZMK_SPLIT
     default y
