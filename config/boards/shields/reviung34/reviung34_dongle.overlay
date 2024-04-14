@@ -1,4 +1,4 @@
-#include "reviung34.dtsi"
+
 / {
  kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
