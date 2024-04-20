@@ -25,26 +25,21 @@ include:
 #    shield: corne_right
 
 
-
 # reviung dongle mode stuff. choose between seeeduino or n!n dongle
 #  - board: nice_nano_v2
 #    shield: reviung34_main
-
 #  - board: nice_nano_v2
 #    shield: reviung34_dongle
-
 #  - board: seeeduino_xiao_ble
 #    shield: reviung34_dongle
 
 
-# sweep
-  - board: nice_nano_v2
-    shield: sweep_left
-  - board: nice_nano_v2
-    shield: sweep_right
-  - board: seeeduino_xiao_ble
-    shield: sweep_dongle
+# sweep w/ seeedongle
 #  - board: nice_nano_v2
+#    shield: sweep_left
+#  - board: nice_nano_v2
+#    shield: sweep_right
+#  - board: seeeduino_xiao_ble
 #    shield: sweep_dongle
 
 
